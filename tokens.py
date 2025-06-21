@@ -1,0 +1,68 @@
+def get_tokens():
+
+    input_tokens = {
+        'item_weight' : 0,
+        'item_volume' : 1,
+        'voltage' : 2,
+        'wattage' : 3,
+        'maximum_weight_recommendation' : 4,
+        'depth' : 5,
+        'width' : 6,
+        'height' : 7
+    }
+
+    output_tokens = {
+        '<sos>': 0,
+        '<eos>': 1,
+        '<pad>': 2,
+        ' ': 3,
+        '.': 4,
+        '[': 5,
+        ']': 6,
+        ',': 7,
+        'to': 8,
+        '0': 9,
+        '1': 10,
+        '2': 11,
+        '3': 12,
+        '4': 13,
+        '5': 14,
+        '6': 15,
+        '7': 16,
+        '8': 17,
+        '9': 18,
+        'centimetre': 19,
+        'foot': 20,
+        'inch': 21,
+        'metre': 22,
+        'millimetre': 23,
+        'yard': 24,
+        'gram': 25,
+        'kilogram': 26,
+        'microgram': 27,
+        'milligram': 28,
+        'ounce': 29,
+        'pound': 30,
+        'ton': 31,
+        'kilovolt': 32,
+        'millivolt': 33,
+        'volt': 34,
+        'kilowatt': 35,
+        'watt': 36,
+        'centilitre': 37,
+        'cubic foot': 38,
+        'cubic inch': 39,
+        'cup': 40,
+        'decilitre': 41,
+        'fluid ounce': 42,
+        'gallon': 43,
+        'imperial gallon': 44,
+        'litre': 45,
+        'microlitre': 46,
+        'millilitre': 47,
+        'pint': 48,
+        'quart': 49
+    }
+
+    
+    return input_tokens, output_tokens
